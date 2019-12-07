@@ -1,0 +1,181 @@
+.login-page .page-header {
+  background-image: url("../images/bgLogin3.jpg");
+  background-size: cover;
+  background-position: top center;
+}
+
+.logoLogin {
+  height: 100%;
+}
+
+.logoAdmin {
+  height: 70px;
+}
+
+.card-login .form {
+  min-height: 310px;
+}
+
+.login-page .footer {
+  z-index: 2;
+}
+
+.btnLogin {
+  margin-bottom: 10px;
+}
+
+.fontDropdownMenu, .fontDropdownMenu a {
+  font-size: 14px !important;
+}
+
+.fontDropdownMenu > a > i {
+  line-height: 20px !important;
+}
+
+.visualizarNotificacao {
+  right: 0;
+}
+
+.botaoNotVertudo {
+  width: 99%;
+}
+
+.logoCodarRodape {
+  padding: 0 !important;
+}
+
+.svgLogoCodar {
+  height: 45px;
+  width: 100px;
+  fill: #fff;
+}
+
+.svgLogoCodar:hover {
+  fill: #10c8f7;
+}
+
+.logoCodarRodapeDark {
+  height: 45px;
+  width: 100px;
+  fill: #11669e;
+}
+
+.logoCodarRodapeDark:hover {
+  fill: #48a0db;
+}
+
+.areaInformacoesEmpresaAvaliacao {
+  background: #fff;
+  padding: 10px 0px;
+  border-radius: 3px;
+  margin-top: 5px;
+}
+
+.bg-login-image-v1 {
+  background-image: url(../images/loginArt.jpg);
+}
+
+.bg-login-image-v2 {
+  background-image: url(../images/loginArt2.jpg);
+}
+
+.bg-login-image-v3 {
+  background-image: url(../images/loginArt3.jpg);
+}
+
+.bg-login-image-v4 {
+  background-image: url(../images/bg-forgot.jpg);
+}
+
+.loginWrapper {
+  min-height: 100vh;
+}
+
+.logoMenu {
+  height: 3rem;
+}
+
+.cursor-p {
+  cursor: pointer;
+}
+
+.iconArquivo {
+  width: 36px;
+}
+
+input[type=file] {
+  padding: 1rem;
+  border-radius: 3px;
+  border: solid 1px #aaa;
+}
+
+.overflow-x-scroll {
+  overflow-x: scroll;
+}
+
+@media only screen and (max-width: 960px) {
+  .overflow-x-lg-scroll {
+    overflow-x: scroll;
+  }
+}
+@media only screen and (max-width: 720px) {
+  .w-md-100 {
+    width: 100%;
+  }
+
+  .mw-md-100 {
+    max-width: 100%;
+  }
+
+  .text-small-sm {
+    font-size: 0.7rem !important;
+  }
+}
+.duascolunas {
+  -webkit-column-count: 2;
+  /* Old Chrome, Safari and Opera */
+  -moz-column-count: 2;
+  /* Old Firefox */
+  column-count: 2;
+}
+
+@media only screen and (max-width: 720px) {
+  .duascolunas {
+    -webkit-column-count: 1;
+    /* Old Chrome, Safari and Opera */
+    -moz-column-count: 1;
+    /* Old Firefox */
+    column-count: 1;
+  }
+}
+.areaInfoSituacao {
+  display: none;
+}
+
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
+.avatarCartao {
+  width: 50%;
+  height: auto;
+}
+
+.listBalancoInterna li {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+@media only screen and (max-width: 720px) {
+  .text-md-sm {
+    font-size: 1rem !important;
+  }
+}
+.logoFormCadastro {
+  max-width: 230px;
+}
+
+.logoMenuCadastro {
+  max-height: 28px;
+}
+
+/*# sourceMappingURL=style.css.map */

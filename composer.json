@@ -1,0 +1,41 @@
+{
+  "name": "codar/basic",
+  "description": "Codarframework para criação da parte visual do sistema",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ricardo de Oliveira",
+      "email": "ricardo.reksystem@gmail.com",
+      "homepage": "https://reksystem.com.br",
+      "role": "Developer"
+    },
+    {
+      "name": "Victor de Andrade Lima",
+      "email": "victorandradelima@gmail.com",
+      "homepage": "http://victorlima.me",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Boot/Config.php",
+      "source/Boot/Helpers.php",
+      "source/Boot/Minify/cafecontrol.php",
+      "source/Boot/Minify/codarweb.php",
+      "source/Boot/Minify/codaradmin.php"
+    ]
+  },
+  "require": {
+    "php": "^7.1",
+    "ext-pdo": "^7.1",
+    "league/plates": "v4.0.0-alpha",
+    "matthiasmullie/minify": "^1.3"
+  }
+}

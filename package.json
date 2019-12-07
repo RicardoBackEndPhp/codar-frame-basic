@@ -1,0 +1,14 @@
+{
+  "name": "sb-admin",
+  "version": "1.0.0",
+  "description": "Componentes Visuais para a Codar framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Victor Lima e Ricardo de Oliveira",
+  "license": "ISC",
+  "dependencies": {
+    "startbootstrap-sb-admin-2": "^4.0.7"
+  }
+}
