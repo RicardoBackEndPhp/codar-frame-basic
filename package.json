@@ -9,6 +9,6 @@
   "author": "Victor Lima e Ricardo de Oliveira",
   "license": "ISC",
   "dependencies": {
-    "startbootstrap-sb-admin-2": "^4.0.7"
+    "startbootstrap-sb-admin-2": "^4.1.4"
   }
 }
